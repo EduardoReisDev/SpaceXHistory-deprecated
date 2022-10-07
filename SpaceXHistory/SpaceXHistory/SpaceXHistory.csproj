@@ -42,54 +42,14 @@
 
 		<!-- Images -->
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+
+		<!-- Custom Fonts -->
+		<MauiFont Include="Resources\Fonts\*" />
+
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0-rc.1.22426.10" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <None Remove="Models\" />
-	  <None Remove="Views\" />
-	  <None Remove="Resources\Images\" />
-	  <None Remove="Resources\Fonts\" />
-	  <None Remove="Resources\Fonts\GemunuLibre-Bold.ttf" />
-	  <None Remove="Resources\Fonts\GemunuLibre-ExtraBold.ttf" />
-	  <None Remove="Resources\Fonts\GemunuLibre-ExtraLight.ttf" />
-	  <None Remove="Resources\Fonts\GemunuLibre-Light.ttf" />
-	  <None Remove="Resources\Fonts\GemunuLibre-Medium.ttf" />
-	  <None Remove="Resources\Fonts\GemunuLibre-Regular.ttf" />
-	  <None Remove="Resources\Fonts\GemunuLibre-SemiBold.ttf" />
-	  <None Remove="Resources\Images\background.jpeg" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Models\" />
-	  <Folder Include="Views\" />
-	  <Folder Include="Resources\Images\" />
-	  <Folder Include="Resources\Fonts\" />
-	</ItemGroup>
-	<ItemGroup>
-	  <MauiXaml Update="Views\AllLaunchsPage.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\SuccessfulLaunchsPage.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\UpcomingLaunchsPage.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
-	  <MauiXaml Update="Views\FailedLaunchsPage.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
-	</ItemGroup>
-	<ItemGroup>
-	  <BundleResource Include="Resources\Fonts\GemunuLibre-Bold.ttf" />
-	  <BundleResource Include="Resources\Fonts\GemunuLibre-ExtraBold.ttf" />
-	  <BundleResource Include="Resources\Fonts\GemunuLibre-ExtraLight.ttf" />
-	  <BundleResource Include="Resources\Fonts\GemunuLibre-Light.ttf" />
-	  <BundleResource Include="Resources\Fonts\GemunuLibre-Medium.ttf" />
-	  <BundleResource Include="Resources\Fonts\GemunuLibre-Regular.ttf" />
-	  <BundleResource Include="Resources\Fonts\GemunuLibre-SemiBold.ttf" />
-	  <BundleResource Include="Resources\Images\background.jpeg" />
-	</ItemGroup>
 </Project>
