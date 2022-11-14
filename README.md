@@ -1,6 +1,6 @@
-# SpaceXHistory
+# SpaceXHistory(deprecated)
 Histórico de lançamentos da SpaceX desenvolvido em .NET MAUI
 
-...em construção.
+...deprecated.
 
 Pendência no .NET MAUI: https://github.com/dotnet/maui/issues/10531
